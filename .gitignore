@@ -1,3 +1,6 @@
+# Global ignores
+Thumbs.db
+
 # Ignore all in root, except
 /*
 !.gitignore

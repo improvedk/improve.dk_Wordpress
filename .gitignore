@@ -1,0 +1,14 @@
+# Ignore all in root, except
+/*
+!.gitignore
+!.htaccess
+!robots.txt
+!wp-content/
+
+# Ignore all in wp-content, except themes
+wp-content/*
+!wp-content/themes/
+
+# Ignore all in wp-content/themes, except improve
+wp-content/themes/*
+!wp-content/themes/improve/

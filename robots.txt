@@ -1,0 +1,19 @@
+Sitemap: http://improve.dk/post-sitemap.xml
+
+User-agent: Googlebot
+Disallow: /wp-content/
+Disallow: /trackback/
+Disallow: /wp-admin/
+Disallow: /archives/
+Disallow: /*?
+Disallow: /*.js$
+Disallow: /*.inc$
+Disallow: /*.css$
+Disallow: */trackback/
+Disallow: /link.php
+
+User-agent: Googlebot-Image
+Disallow: /wp-includes/
+
+User-agent: Mediapartners-Google*
+Disallow:

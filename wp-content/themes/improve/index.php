@@ -95,9 +95,9 @@
 										
 										<? if (is_single()) : ?>
 											<div id="postsharing">
-												<a href="https://twitter.com/home?status=<? urlencode(get_the_title() . " " . get_permalink() . " via @improvedk") ?>" target="_blank"><img src="/wp-content/themes/improve/images/twitter_64x64.png" /></a>
-												<a href="https://www.facebook.com/sharer.php?u=<? urlencode(get_permalink()) . "&t=" . urlencode(get_the_title()) ?>" target="_blank"><img src="/wp-content/themes/improve/images/facebook_64x64.png" /></a>
-												<a href="http://reddit.com/submit?url=<? urlencode(get_permalink()) . "&title=" . urlencode(get_the_title()) ?>" target="_blank"><img src="/wp-content/themes/improve/images/reddit_64x64.png" /></a>
+												<a href="https://twitter.com/home?status=<?= urlencode(get_the_title() . " " . get_permalink() . " via @improvedk") ?>" target="_blank"><img src="/wp-content/themes/improve/images/twitter_64x64.png" /></a>
+												<a href="https://www.facebook.com/sharer.php?u=<?= urlencode(get_permalink()) . "&t=" . urlencode(get_the_title()) ?>" target="_blank"><img src="/wp-content/themes/improve/images/facebook_64x64.png" /></a>
+												<a href="http://reddit.com/submit?url=<?= urlencode(get_permalink()) . "&title=" . urlencode(get_the_title()) ?>" target="_blank"><img src="/wp-content/themes/improve/images/reddit_64x64.png" /></a>
 											</div>
 											
 											<div id="bio">

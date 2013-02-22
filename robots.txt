@@ -1,6 +1,7 @@
 Sitemap: http://improve.dk/post-sitemap.xml
 
 User-agent: Googlebot
+Allow: /wp-content/uploads/
 Disallow: /wp-content/
 Disallow: /trackback/
 Disallow: /wp-admin/

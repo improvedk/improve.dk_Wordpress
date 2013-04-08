@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title><? wp_title( '|', true, 'right' ); ?></title>
-		<link rel="stylesheet" href="/wp-content/themes/improve/style.min.css?v=2" />
+		<link rel="stylesheet" href="/wp-content/themes/improve/style.min.css?v=3" />
 		<script src="/wp-content/themes/improve/combined.js"></script>
 		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
 		<meta charset="UTF-8" />
